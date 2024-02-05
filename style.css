@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+/* body{
+    
+   justify-content: center;
+   text-align: center;
+} */
+nav{
+    display: flex;
+    background: white;
+    align-items: center;  
+    background-color: rgba(162, 94, 116, 0.995);
+}
+.rakiss img{
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    margin-left: 30%;
+    padding-top: 2%;
+}
+.nav-menu{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.nav-menu li{
+    list-style: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color:rgb(243, 236, 236);
+}
+a:hover{
+    color: rgb(117, 27, 5);
+}
+.phone{
+    color: white;
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+.phoneNumber i{
+    padding: 10px 15px;
+    font-size: large;
+}
+.btn button{
+    width: 200px;
+    height: 45px;
+    background-color: rgb(240, 139, 139);
+    border:none;
+    color: white;
+}
+.btn button:hover{
+    background-color: maroon;
+}
+.linearGradie{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(8, 9, 9);
+    background-image: url(images/pc6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.welecomText{
+display: flex;
+gap: 2px;
+justify-content: center;
+text-align: center ;
+}
+strong{
+    color: rgb(243, 97, 100);
+    font-size: 4rem;
+}
+.btnExplore button{
+    color: white;
+    background-color: #ec615e93;
+    border: 2px solid black;
+    height: 40px;
+    width: 10%;
+    margin-top: 30px;
+    border-radius: 7px;
+}
+.btnExplore button:hover{
+    background-color: rgb(224, 8, 8);
+    border: 2px solid rgb(37, 10, 10);
+}
+.onStore{
+    display: flex;
+    justify-content: center;
+    text-align: center ;  
+}
+.btnStore{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+     gap: 5%;
+     
+}
+
+.btnFilter{
+    width: 6%;
+    border: 2px solid black;
+    border-radius: 3px; 
+    padding: 1px ;
+    background-color: aliceblue; 
+    font-weight: bold;
+}
+.btnFilter:hover{
+    background-color: rgb(224, 8, 8);
+    color: white;
+    border: 2px solid rgb(239, 229, 229);
+   
+}
+
+.input-group{
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+}
+.listProduit .item img{ 
+    margin-top: 30px;
+margin-left: 30%;
+width: 100px;
+height: 100px;
+filter: drop-shadow(0 50px 20px rgba(2, 2, 2, 0.6));
+
+}
+/* .listProduit{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+} */
+.listProduit .item{
+    background-color: #d6adad;
+    width: 200px;
+    height: 120%;
+    border-radius: 20px;
+} 
+.listProduit .item h2{
+    font-weight: 500;
+    font-size: large;
+}
+.listProduit .item .prix{
+    letter-spacing: 2px;
+    font-size: small;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.listProduit .item button{
+    background-color: #7b5304;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+.listProduit .item .infProduit{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    justify-content: center;
+}
+.listProduit .item .star{
+    margin-left: 20%;
+    
+}
+.item button:hover{
+    background-color:#d6adad;
+}
+/* .star i:hover{
+  color: white;
+} */
+
+.cartContainer{
+    margin-top: 2%;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background-color: rgba(162, 94, 116, 0.995);
+    margin-left: auto;
+    z-index: 100;
+    
+}
+.divTotale{
+    color: white;
+    justify-content: space-around;
+}
+.divButon{
+ 
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+section{
+    margin-top:10px ;
+    margin-bottom: 10px;
+    /* gap: 10px !important; */
+}
+
+
+ .tailleImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+
+ }
