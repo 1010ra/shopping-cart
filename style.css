@@ -4,14 +4,9 @@
     box-sizing: border-box;
     font-family:sans-serif;
 }
-/* body{
-    
-   justify-content: center;
-   text-align: center;
-} */
-nav{
+.navbar{
     display: flex;
-    background: white;
+    background-color: rgb(62, 59, 59);
     align-items: center;  
     background-color: rgba(162, 94, 116, 0.995);
 }
@@ -80,6 +75,8 @@ display: flex;
 gap: 2px;
 justify-content: center;
 text-align: center ;
+margin-right: 25%;
+position: relative;
 }
 strong{
     color: rgb(243, 97, 100);

@@ -380,7 +380,7 @@ function affichageEcouteurs() {
 }
 
 
-
+//==============================pour la recherche dans l'input
 function btnRecherche() {
   // console.log(inputGroupSelect01.value);
   let inputValue = inputGroupSelect01.value;
@@ -411,14 +411,8 @@ function btnRecherche() {
   }
 }
 
-
+//================================================pour les etoiles
 const allStars = document.querySelectorAll(".bi-star-fill")
-//  allStars.forEach(star => {
-//   star.addEventListener('click',(e) =>{
-//     e.target.classList.add("text-white")
-//   })
-//  })
-
 allStars.forEach((star, index) => {
   // Vérifiez s'il y a une couleur stockée en localStorage pour cette étoile
   const storedColor = localStorage.getItem(`starColor${index + 1}`);
